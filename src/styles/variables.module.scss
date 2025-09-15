@@ -1,0 +1,13 @@
+$color-palette-main: rgb(0, 103, 205);
+$color-palette-secondary: rgb(26, 171, 73);
+
+$color-palette-foreground: #242424;
+$color-palette-background: #f1f1f1;
+
+:export {
+  colorPaletteMain: $color-palette-main;
+  colorPaletteSecondary: $color-palette-secondary;
+
+  colorPaletteForeground: $color-palette-foreground;
+  colorPaletteBackground: $color-palette-background;
+}

@@ -1,0 +1,11 @@
+.stars > label {
+  color: #ddd;
+  font-size: 11px;
+}
+.stars > label:before {
+  margin: 1px;
+  font-size: 1.25em;
+  display: inline-block;
+  font-family: FontAwesome;
+  content: '\f005';
+}

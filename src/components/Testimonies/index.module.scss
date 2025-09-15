@@ -1,0 +1,31 @@
+.root {
+  margin-top: 60px;
+  padding-bottom: 105px;
+  background: radial-gradient(
+      22.05% 52.22% at 83.4% 50%,
+      rgba(0, 251, 40, 0.08) 0%,
+      rgba(0, 251, 40, 0) 100%
+    ),
+    radial-gradient(21.11% 50% at 50% 50%, rgba(0, 143, 255, 0.16) 0%, rgba(0, 143, 255, 0) 100%),
+    radial-gradient(21.11% 50% at 21.11% 50%, rgba(0, 251, 40, 0.08) 0%, rgba(0, 251, 40, 0) 100%);
+
+  .slider_container {
+    position: relative;
+    margin-top: 56px;
+  }
+
+  .swiper {
+    padding-bottom: 24px;
+  }
+
+  .testimony {
+    direction: rtl;
+    width: 288px !important;
+    height: 360px;
+    margin-bottom: 16px;
+  }
+
+  .rating {
+    width: 120px;
+  }
+}

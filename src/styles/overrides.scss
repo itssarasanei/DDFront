@@ -1,0 +1,14 @@
+@import './variables.module.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: $color-palette-foreground;
+  background-color: $color-palette-background;
+}
+
+a {
+  text-decoration: none;
+}
