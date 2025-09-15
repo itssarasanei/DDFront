@@ -7,19 +7,19 @@ This is DrDr. You can visit doctors online here.
 First, install pnpm using npm
 
 ```bash
-npm i -g pnpm@9.0.4
+pnpm install
 ```
 
-then install all of the dependencies of the project with
+then build 
 
 ```bash
-pnpm i
+pnpm run build --no-lint
 ```
 
-at last, run development server using
+at last, start 
 
 ```bash
-pnpm run dev
+pnpm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
